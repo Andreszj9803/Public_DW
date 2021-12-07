@@ -1,10 +1,9 @@
 {
-  "name": "ProcessCSahrpLegacy",
-  "description": "Proceso en C# con compatibilidad Windows Legacy",
+  "name": "[BDWName]",
+  "description": "[BDWDescription]",
   "main": "Main.xaml",
   "dependencies": {
-    "BeeckerCoDW.Bill.14": "[1.0.1]",
-    "BeeckerCoDW.Bill.15": "[1.0.0]",
+    [BDWDependencies]
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.System.Activities": "[21.10.3]",
@@ -44,7 +43,7 @@
     "fileInfoCollection": [],
     "modernBehavior": false
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
