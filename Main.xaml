@@ -1,6 +1,5 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="589,525" sap2010:WorkflowViewState.IdRef="Main_1"
 	xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
-	xmlns:bb="clr-namespace:BeeckercoDw.Bill;assembly=Bill.15"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
 	xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
@@ -67,13 +66,11 @@
 	</TextExpression.ReferencesForImplementation>
 	<Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="376,383" sap2010:WorkflowViewState.IdRef="Sequence_1">
 		<Sequence.Variables>
-			<Variable x:TypeArguments="scg:Dictionary(x:Int32, scg:Dictionary(x:String, sd:DataTable))" Name="DictionaryOutput" />
 		</Sequence.Variables>
 		<sap:WorkflowViewStateService.ViewState>
 			<scg:Dictionary x:TypeArguments="x:String, x:Object">
 				<x:Boolean x:Key="IsExpanded">True</x:Boolean>
 			</scg:Dictionary>
 		</sap:WorkflowViewStateService.ViewState>
-		<bb:Bill_15 DisplayName="Bill 15" ExcelFilePath="C://PathExcel" ExcelOutput="[TrueExcelOutput]" sap:VirtualizedContainerService.HintSize="334,291" sap2010:WorkflowViewState.IdRef="Bill_15_1" Output="[DictionaryOutput]" OutputName="NaeExcelOutputh" OutputPath="C://PathOutput" Password="[New System.Net.NetworkCredential(&quot;&quot;,&quot;Inovationlab&quot;).SecurePassword]" SettingsFilePath="[Environment.CurrentDirectory+(&quot;C://Path&quot;)]" UserName="PHR-00username" />
 	</Sequence>
 </Activity>
