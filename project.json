@@ -1,6 +1,6 @@
 {
   "name": "nombre",
-  "description": "",
+  "description": "fdsdfdsfdsf",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
