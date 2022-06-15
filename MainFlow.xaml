@@ -73,7 +73,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Null />
     </Flowchart.StartNode>
    </Flowchart>
 </Activity>
