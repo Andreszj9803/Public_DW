@@ -1,0 +1,13 @@
+{
+  "project": {
+    "profile": {
+      "name": **ProjectName**,
+      "description": **ProjectDescription**
+    },
+    "commands": [
+      
+    ],
+    "vars": [],
+    "ifs": []
+  }
+}
